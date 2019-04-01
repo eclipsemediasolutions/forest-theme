@@ -1,4 +1,18 @@
 ---
 label: Blog
 hide_body: false
-fields: []
+display_field: title
+fields:
+- type: text
+  name: title
+  label: Title
+- type: file
+  name: header_image
+  label: Header Image
+- type: textarea
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Body
+  name: body
