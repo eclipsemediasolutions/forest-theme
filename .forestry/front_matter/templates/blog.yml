@@ -16,3 +16,5 @@ fields:
       format: markdown
   label: Body
   name: body
+pages:
+- _posts/hello-block.md
